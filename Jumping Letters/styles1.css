@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
     background: linear-gradient(to right, #04d2f7,#f03efa)
 }
 
@@ -36,10 +37,10 @@ body{
     transform: translate(0,0) rotate(180deg)
    }
    25%{
-    transform: scale(2) translate(-150px)
+    transform: scale(2) translate(0,-150px)
    }
    75%{
-    transform: scale(1.1,1.1) translate(200px)
+    transform: scale(1.1,1.1) translate(0,200px)
    }
    100%{
     transform: translate(0,0) rotate(360deg)
